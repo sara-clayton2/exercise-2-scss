@@ -147,4 +147,59 @@ p {
   text-align: center;
 }
 
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1.0;
+  }
+  20% {
+    opacity: 0.0;
+  }
+  70% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1.0;
+  }
+  20% {
+    opacity: 0.0;
+  }
+  70% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+.icon-zs {
+  color: #3A3A3A;
+  font-size: 4em;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.icon-asleep {
+  font-size: 4em;
+  text-align: center;
+}
+
+.face {
+  color: #3A3A3A;
+  margin-left: 50%;
+  margin-right: 50%;
+  padding-top: 10em;
+}
+
 /*# sourceMappingURL=style.css.map */

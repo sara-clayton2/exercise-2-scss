@@ -63,3 +63,31 @@ p{
 .night{ 
 	text-align: center;
 }
+
+@keyframes fade{
+    0% {opacity: 1.0}
+    20% {opacity: 0.0}
+    70% {opacity: 0.4}
+    100% {opacity: 1.0}
+ }
+
+.icon-zs{ 
+	color: $secondary;
+	font-size: 4em;
+	animation-name: fade;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+		
+.icon-asleep{ 
+	font-size:  4em;
+	text-align: center;
+}
+
+.face{ 
+	color: $secondary;
+	margin-left: 50%; 
+	margin-right: 50%;
+	padding-top: 10em;
+}
