@@ -13,4 +13,44 @@ p {
   font-size: 13px;
 }
 
+@-webkit-keyframes animated {
+  from {
+    -webkit-transform: rotate(0deg) translateX(50px) rotate(0deg);
+            transform: rotate(0deg) translateX(50px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(50px) rotate(-360deg);
+            transform: rotate(360deg) translateX(50px) rotate(-360deg);
+  }
+}
+
+@keyframes animated {
+  from {
+    -webkit-transform: rotate(0deg) translateX(50px) rotate(0deg);
+            transform: rotate(0deg) translateX(50px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(50px) rotate(-360deg);
+            transform: rotate(360deg) translateX(50px) rotate(-360deg);
+  }
+}
+
+.bounce {
+  position: absolute;
+  padding: 3em;
+  left: 45%;
+  right: 50%;
+  color: #3A3A3A;
+  -webkit-animation: animated 6s linear infinite;
+          animation: animated 6s linear infinite;
+}
+
+.bounce:hover {
+  color: #E1DFD0;
+}
+
+.bounce .icon-sheepish {
+  font-size: 4em;
+}
+
 /*# sourceMappingURL=style.css.map */
