@@ -31,3 +31,35 @@ p{
 			font-size: 4em;
 		}
 }
+
+@keyframes pulsate{
+    0% {opacity: 0.0}
+    10% {opacity: .20}
+    20% {opacity: .40}
+    30% {opacity: .60}
+    40% {opacity: .80} 
+    50% {opacity: 1.0}
+    60% {opacity: .80}
+    70% {opacity: .60}
+    80% {opacity: .40}
+    90% {opacity: .20}
+    100% {opacity: 0.0}
+ }
+
+.icon-stars{ 
+	font-size: 5em;
+	color: $gold;
+	animation-name: pulsate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.icon-moon{ 
+	color: $white;
+	font-size: 4em;
+}
+
+.night{ 
+	text-align: center;
+}
