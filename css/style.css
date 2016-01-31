@@ -202,4 +202,32 @@ p {
   padding-top: 10em;
 }
 
+.banner {
+  max-width: 30em;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-buttons {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.stories {
+  margin: 2em;
+  display: inline-block;
+  border-radius: 1px;
+  text-decoration: none;
+  color: #6E7B80;
+  text-align: center;
+  padding: .5em;
+  background-color: #E1DFD0;
+}
+
+.stories:hover {
+  opacity: .5;
+}
+
 /*# sourceMappingURL=style.css.map */

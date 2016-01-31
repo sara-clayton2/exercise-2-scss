@@ -1,0 +1,12 @@
+@mixin button($beige){ 
+	display: inline-block; 
+	border-radius: 1px; 
+	text-decoration: none;
+	color: $primary; 
+	text-align: center;
+	padding: .5em;
+	background-color: $beige;
+	&:hover{
+		opacity: .5;
+	}
+}
